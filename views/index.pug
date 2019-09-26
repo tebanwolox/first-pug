@@ -1,0 +1,29 @@
+html 
+  head  
+    title= title
+  body
+    h1= message
+    p= 'holaaaa perros'
+      a(href="http://www.google.com") this is the link text
+    div
+      ol 
+        li First element
+        li Second Element
+        li third element
+    label(for='ourid') This is the label text
+    input(name='ourname', type='password', id='ourid', placeholder='our placeholder')
+    table 
+      tr 
+        td
+          label name
+        td 
+          input(type="name", id='name')
+      tr 
+        td
+          label anotherName
+        td 
+          input(type="name", id='name')
+    form(method='post', action='/')
+    label(for="ourid") This is the label text
+    input(type="password", value="ourid")
+    input(type="submit", value="our value")
